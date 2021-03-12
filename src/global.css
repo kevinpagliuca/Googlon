@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.App button:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.App button {
+    padding: 1rem;
+    border: 0;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 450px;
+    background: #ffcc09;
+    color: #555;
+    cursor: pointer;
+}
+
+.App button:nth-child(odd) {
+    background: #e83f5b;
+    color: #fff;
+
+}
+
+body {
+    background-color: #f0f0f0;
+}
